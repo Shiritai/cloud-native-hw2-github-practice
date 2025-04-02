@@ -36,9 +36,9 @@ jobs:
           echo test, and deploy your project.
 
       # echo README.md and check if hw-p exists
-      - name: check we are in hw-p
+      - name: check we are in hw1-p
         run: |
-          cat README.md | grep hw-p
+          cat README.md | grep hw1-p
 
       # fetch congrads file and print it
       - name: tomorin-wo-musisuru-nante
