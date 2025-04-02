@@ -38,7 +38,7 @@ jobs:
       # echo README.md and check if hw-p exists
       - name: check we are in hw-p
         run: |
-          echo README.md | grep hw-p
+          cat README.md | grep hw-p
 
       # fetch congrads file and print it
       - name: tomorin-wo-musisuru-nante
